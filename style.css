@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --orange: #ffa62b;
+  --blue: #00a0c1;
+  --dark: #252b42;
+  --green: #16697a;
+  --white: #fff;
+  --darkwhite: #f9f9f9;
+  --grey: #bdbdbd;
+  --fb: #335bf5;
+  --insta: #e51f5a;
+  --twitter: #21a6df;
+  --yt: #e42f08;
+  --lightgrey: #e5e5e5;
+}
+body {
+  color: var(--dark);
+}
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+.inner_cont {
+  max-width: 1050px;
+  margin: auto;
+}
+.hidden {
+  display: none;
+}
+/* header */
+header {
+  padding-bottom: 36px;
+  padding-top: 36px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1059px;
+  margin: auto;
+}
+.header__nav {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 39px;
+  align-items: center;
+}
+ul {
+  display: flex;
+  gap: 21px;
+}
+.header__icons {
+  display: flex;
+  gap: 18px;
+}
+.icon {
+  font-size: 16px;
+  color: var(--orange);
+  font-weight: 500;
+}
+.header__logo {
+  font-size: 24px;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+}
+.header__nav a {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: var(--orange);
+  font-weight: 500;
+}
+/* section1 */
+.section1 {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.s1__cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.regist {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  background-color: var(--orange);
+  color: var(--white);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 15px 52px;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 0.2px;
+}
+.s1_left h2 {
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  font-weight: 750;
+}
+.s1_left {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.s1_left p {
+  color: var(--orange);
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  max-width: 539px;
+}
+.btn1 {
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 37px;
+  padding: 10px 36px;
+  border: none;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+}
+.btn2 {
+  background: transparent;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
+.s1_btns {
+  display: flex;
+  gap: 10px;
+}
+.s1_right {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-radius: 10px;
+  background-color: var(--white);
+}
+.s1_right h3 {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+.regist {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.regist_label {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+}
+.s1_inp {
+  width: 248px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 11px 21px;
+  outline: none;
+  border: 1px solid var(--grey);
+  background-color: var(--darkwhite);
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: var(--orange);
+}
+.s1_inp::placeholder {
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: var(--orange);
+}
+.hero_wraper {
+  background: url(./assets/images/background.png) no-repeat;
+  background-size: cover;
+}
