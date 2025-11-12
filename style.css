@@ -12,6 +12,9 @@
   --twitter: #21a6df;
   --yt: #e42f08;
   --lightgrey: #e5e5e5;
+  --lightblue: #d9edff;
+  --cardbord: #a9d6ff;
+  --bgs3: #fafafa;
 }
 body {
   color: var(--dark);
@@ -180,4 +183,106 @@ ul {
 .hero_wraper {
   background: url(./assets/images/background.png) no-repeat;
   background-size: cover;
+}
+/* section 2 */
+.section2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.s2__cont {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.description {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--orange);
+  letter-spacing: 0.2px;
+  max-width: 470px;
+  text-align: center;
+}
+.s2__ttl {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.section_ttl {
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+.s2__ttl h2 {
+  text-transform: uppercase;
+}
+.list ul {
+  list-style-type: none;
+  flex-direction: column;
+  gap: 5px;
+}
+.card_descr {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--orange);
+  letter-spacing: 0.2px;
+  font-weight: 600;
+}
+.list {
+  padding: 30px 44px 30px 50px;
+  border: 1px solid var(--cardbord);
+  border-radius: 11px;
+  background-color: var(--white);
+}
+.card_head {
+  background-color: var(--lightblue);
+  display: flex;
+  padding: 30px 0;
+  gap: 15px;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+}
+.s2__card {
+  max-width: 328px;
+  border-radius: 10px;
+  background-color: var(--lightblue);
+}
+.s2_card_img {
+  background-color: var(--white);
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card_head h3 {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  white-space: nowrap;
+}
+.s2__cards {
+  display: flex;
+  justify-content: space-between;
+}
+/* section 3 */
+.s3__ttl {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.s3_cont {
+  padding: 80px 86.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.section3 {
+  background: linear-gradient(to bottom, #fafafa 50%, #16697a 50%),
+    linear-gradient(to bottom, #fafafa 50%, rgba(0, 0, 0, 0.5) 50%);
+  background-blend-mode: multiply;
 }

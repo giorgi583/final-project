@@ -15,55 +15,135 @@
 
 <body>
     <div class="hero_wraper">
-    <header class="container">
-        <div class="header">
-            <h1 class="header__logo">Sprivaten</h1>
-            <nav class="header__nav">
-                <div class="header__icons">
-                    <ion-icon class="icon" name="search-outline"></ion-icon>
-                    <ion-icon class="icon" name="cart-outline"></ion-icon>
-                    <label class="hidden" for="menu"><img src="./assets/icons/Vector.svg" alt=""></label>
-                </div>
-                <input type="checkbox" id="menu" hidden>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <section class="container section1">
-            <div class="inner_cont s1__cont">
-                <div class="s1_left">
-                    <h2>Drive More Customers Through Digital
-                    </h2>
-                    <p>We know how large objects will act, but things on a
-                        small scale.</p>
-                    <div class="s1_btns">
-                        <button class="btn1">Get Quote Now</button>
-                        <button class="btn2 btn1">Learn More</button>
+        <header class="container">
+            <div class="header">
+                <h1 class="header__logo">Sprivaten</h1>
+                <nav class="header__nav">
+                    <div class="header__icons">
+                        <ion-icon class="icon" name="search-outline"></ion-icon>
+                        <ion-icon class="icon" name="cart-outline"></ion-icon>
+                        <label class="hidden" for="menu"><img src="./assets/icons/Vector.svg" alt=""></label>
                     </div>
-                </div> 
-                <div class="s1_right">
-                    <h3>Book Appointment</h3>
-                    <form class="regist" action="">
-                        <label class="regist_label" for="name">Name*</label>
-                        <input placeholder="Full Name" class="s1_inp" type="Full Name" name="" id="name">
-                        <label class="regist_label" for="email">Email*</label>
-                        <input placeholder="example@gmail.com" class="s1_inp" type="email" name="" id="email">
-                        <label class="regist_label" for="dep">Department*</label>
-                        <select class="s1_inp" name="" id="dep"><option value="" disabled selected hidden>Please Select</option></select>
-                        <label class="regist_label" for="time">Time*</label>
-                        <select placeholder="4:00 Available" class="s1_inp" name="" id="time"><option value="" disabled selected hidden>4:00 Available</option></select>
-                    </form>
-                    <input class="btn" type="button" value="Book Appointment">
+                    <input type="checkbox" id="menu" hidden>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="container section1">
+                <div class="inner_cont s1__cont">
+                    <div class="s1_left">
+                        <h2>Drive More Customers Through Digital
+                        </h2>
+                        <p>We know how large objects will act, but things on a
+                            small scale.</p>
+                        <div class="s1_btns">
+                            <button class="btn1">Get Quote Now</button>
+                            <button class="btn2 btn1">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="s1_right">
+                        <h3>Book Appointment</h3>
+                        <form class="regist" action="">
+                            <label class="regist_label" for="name">Name*</label>
+                            <input placeholder="Full Name" class="s1_inp" type="Full Name" name="" id="name">
+                            <label class="regist_label" for="email">Email*</label>
+                            <input placeholder="example@gmail.com" class="s1_inp" type="email" name="" id="email">
+                            <label class="regist_label" for="dep">Department*</label>
+                            <select class="s1_inp" name="" id="dep">
+                                <option value="" disabled selected hidden>Please Select</option>
+                            </select>
+                            <label class="regist_label" for="time">Time*</label>
+                            <select placeholder="4:00 Available" class="s1_inp" name="" id="time">
+                                <option value="" disabled selected hidden>4:00 Available</option>
+                            </select>
+                        </form>
+                        <input class="btn" type="button" value="Book Appointment">
+                    </div>
+                </div>
+            </section>
+    </div>
+    <!-- section 2 -->
+    <section class="container section2">
+        <div class="inner_cont s2__cont">
+            <div class="s2__ttl">
+                <h2 class="section_ttl">why choose us</h2>
+                <p class="description">Problems trying to resolve the conflict between <br>
+                    the two major realms of Classical physics: Newtonian mechanics </p>
+            </div>
+            <div class="s2__cards">
+                <div class="s2__card">
+                    <div class="card_head">
+                        <div class="s2_card_img"><img src="./assets/icons/ppl.png" alt="community icon"></div>
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li class="card_descr">- The best products start with Figma</li>
+                            <li class="card_descr">- Design with real data</li>
+                            <li class="card_descr">- Lightning fast prototyping</li>
+                            <li class="card_descr">- Fastest way to organize</li>
+                            <li class="card_descr">- Work at the speed of thought.</li>
+                            <li class="card_descr">Learn more</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="s2__card">
+                    <div class="card_head">
+                        <div class="s2_card_img"><img src="./assets/icons/fa-solid_award.png" alt="award icon"></div>
+                        <h3>Natipnal top 50 firms</h3>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li class="card_descr">- The best products start with Figma</li>
+                            <li class="card_descr">- Design with real data</li>
+                            <li class="card_descr">- Lightning fast prototyping</li>
+                            <li class="card_descr">- Fastest way to organize</li>
+                            <li class="card_descr">- Work at the speed of thought.</li>
+                            <li class="card_descr">Learn more</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="s2__card">
+                    <div class="card_head">
+                        <div class="s2_card_img"><img src="./assets/icons/book.png" alt="book icon"></div>
+                        <h3>Digital Marketing</h3>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li class="card_descr">- The best products start with Figma</li>
+                            <li class="card_descr">- Design with real data</li>
+                            <li class="card_descr">- Lightning fast prototyping</li>
+                            <li class="card_descr">- Fastest way to organize</li>
+                            <li class="card_descr">- Work at the speed of thought.</li>
+                            <li class="card_descr">Learn more</li>
+                        </ul>
+
+                    </div>
                 </div>
             </div>
-        </section>
         </div>
+
+    </section>
+    <!-- section 3 -->
+     <section class="container section3">
+        <div class="s3_cont inner_cont">
+            <div class="s3__ttl">
+                <h2 class="section_ttl">We are providing best <br>
+business service.</h2>
+                <p class="description">Problems trying to resolve the conflict between <br>
+                    the two major realms of Classical physics: Newtonian mechanics </p>
+        </div>
+        <div class="s3_img"><img src="./assets/images/row.png" alt="bussines service"></div>
+        </div>
+     </section>
     </main>
 
 
