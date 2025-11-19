@@ -61,19 +61,25 @@
                             <label class="regist_label" for="email">Email*</label>
                             <input placeholder="example@gmail.com" class="s1_inp" type="email" name="" id="email">
                             <label class="regist_label" for="dep">Department*</label>
-                            <select class="s1_inp" name="" id="dep">
-                                <option value="" disabled selected hidden>Please Select</option>
-                                <option value="">Marketing</option>
-                                <option value="">Financing</option>
-                                <option value="">SEO</option>
-                            </select>
+                            <div class="select-wrapper">
+                                <select class="s1_inp" name="" id="dep">
+                                    <option value="" disabled selected hidden>Please Select</option>
+                                    <option value="">Marketing</option>
+                                    <option value="">Financing</option>
+                                    <option value="">SEO</option>
+                                </select>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
                             <label class="regist_label" for="time">Time*</label>
-                            <select class="s1_inp" name="" id="time">
-                                <option value="" disabled selected hidden>4:00 Available</option>
-                                <option value="">5:00</option>
-                                <option value="">6:00</option>
-                                <option value="">7:00</option>
-                            </select>
+                            <div class="select-wrapper">
+                                <select class="s1_inp" name="" id="time">
+                                    <option value="" disabled selected hidden>4:00 Available</option>
+                                    <option value="">5:00</option>
+                                    <option value="">6:00</option>
+                                    <option value="">7:00</option>
+                                </select>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
                         </form>
                         <input class="btn" type="button" value="Book Appointment">
                     </div>
@@ -87,7 +93,7 @@
                 <h1 class="section_ttl">why choose us</h1>
                 <p class="description mob_hidden">Problems trying to resolve the conflict between <br>
                     the two major realms of Classical physics: Newtonian mechanics </p>
-                     <p class="description hidden1">Problems trying to resolve the conflict between
+                <p class="description hidden1">Problems trying to resolve the conflict between
                     the two major realms of Classical physics: Newtonian mechanics </p>
             </div>
             <div class="s2__cards">
@@ -159,11 +165,12 @@
                     business service.</h2>
                 <p class="description mob_hidden">Problems trying to resolve the conflict between <br>
                     the two major realms of Classical physics: Newtonian mechanics </p>
-                    <p class="description hidden1">Problems trying to resolve the conflict between
+                <p class="description hidden1">Problems trying to resolve the conflict between
                     the two major realms of Classical physics: Newtonian mechanics </p>
             </div>
             <div class="s3_img"><img class="mob_hidden" src="./assets/images/card-item.jpg" alt="bussines service">
-            <img class="hidden1" src="./assets/images/card-itemmob.jpg" alt="bussines service"></div>
+                <img class="hidden1" src="./assets/images/card-itemmob.jpg" alt="bussines service">
+            </div>
         </div>
     </section>
     <!-- section 4 -->
@@ -173,7 +180,7 @@
                 <h1 class="section_ttl">What Clients Say</h1>
                 <p class="description mob_hidden">Problems trying to resolve the conflict between <br>
                     the two major realms of Classical physics: Newtonian mechanics </p>
-                     <p class="description hidden1">Problems trying to resolve the conflict between
+                <p class="description hidden1">Problems trying to resolve the conflict between
                     the two major realms of Classical physics: Newtonian mechanics </p>
             </div>
             <div class="s4_cards">
@@ -225,7 +232,7 @@
                 <h1 class="section_ttl s5_ttl">Meet Our Team</h1>
                 <p class="description mob_hidden">Problems trying to resolve the conflict between <br>
                     the two major realms of Classical physics: Newtonian mechanics </p>
-                     <p class="description hidden1">Problems trying to resolve the conflict between
+                <p class="description hidden1">Problems trying to resolve the conflict between
                     the two major realms of Classical physics: Newtonian mechanics </p>
             </div>
             <div class="s4_cards">
@@ -278,18 +285,24 @@
             <form class="s6_form">
                 <input class="grid-item-1" placeholder="Full Name" type="text">
                 <input class="grid-item-2" placeholder="example@gmail.com" type="email">
-                <select aria-label="choose department" class="grid-item-3">
-                    <option class="first_child" value="" disabled selected hidden>Please Select</option>
-                    <option value="">Marketing</option>
-                    <option value="">Financing</option>
-                    <option value="">SEO</option>
-                </select>
-                <select aria-label="choose time" class="grid-item-4">
-                    <option class="first_child" value="" disabled selected hidden>4:00 Available</option>
-                    <option value="">5:00</option>
-                    <option value="">6:00</option>
-                    <option value="">7:00</option>
-                </select>
+                <div class="select-wrapper grid-item-3">
+                    <select aria-label="choose department" class="grid-item-3">
+                        <option class="first_child" value="" disabled selected hidden>Please Select</option>
+                        <option value="">Marketing</option>
+                        <option value="">Financing</option>
+                        <option value="">SEO</option>
+                    </select>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="select-wrapper grid-item-4">
+                    <select aria-label="choose time" class="grid-item-4">
+                        <option class="first_child" value="" disabled selected hidden>4:00 Available</option>
+                        <option value="">5:00</option>
+                        <option value="">6:00</option>
+                        <option value="">7:00</option>
+                    </select>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
                 <textarea class="grid-item-5" type="text" placeholder="Message"></textarea>
             </form>
             <input class="btn" type="button" value="Book Appointment">

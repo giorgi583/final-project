@@ -433,6 +433,25 @@ ul {
   padding-left: 40px;
   padding-right: 40px;
 }
+.select-wrapper select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+select {
+  width: 100%;
+}
+.select-wrapper {
+  position: relative;
+}
+.fa-chevron-down {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  color: var(--orange);
+  font-size: 14px;
+}
 .s6_form input,
 select,
 textarea {
@@ -564,7 +583,7 @@ footer {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.2px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .hidden1 {
   display: none;
@@ -756,6 +775,9 @@ footer {
   }
 
   /* section 6 */
+  .section6 {
+    background-position: center;
+  }
   .s6_form {
     display: grid;
     grid-template-columns: 286px;
@@ -765,9 +787,16 @@ footer {
   .grid-item-5 {
     grid-column: span 1;
   }
+  .fa-chevron-down {
+    color: var(--mobiletext);
+  }
   .s6_cont {
     padding-top: 115px;
     padding-bottom: 85px;
+    align-items: center;
+  }
+  .s6_ttl {
+    max-width: 285px;
   }
   .s6_cont .btn {
     padding: 15px 71px;
@@ -799,6 +828,7 @@ footer {
     padding: 40px 46px;
 
   }
+  
   .footer_socials {
     padding: 0 80px 0 0;
   }
@@ -807,6 +837,14 @@ footer {
     gap: 30px;
     padding: 70px 47px 70px 46px;
     border: none;
+  }
+  .footer_form input {
+    flex: 2;
+    min-width: 0;
+  }
+  .footer_btn {
+    flex: 1;
+    flex-shrink: 0;
   }
   .footer_part3 {
 display: flex;
