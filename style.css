@@ -709,6 +709,9 @@ footer {
   .s2__ttl {
     max-width: 330px;
   }
+  .s2__ttl h1 {
+    max-width: 252px;
+  }
   .s2__ttl p {
     max-width: 225px;
   }
@@ -751,6 +754,9 @@ footer {
     align-items: center;
     gap: 30px;
   }
+  .section4 {
+    background-color: var(--bgs3);
+  }
   .s4_cont {
     gap: 60px;
     padding-top: 75px;
@@ -762,6 +768,9 @@ footer {
   }
   .s3__ttl {
     max-width: 330px;
+  }
+  .s4_cont h1 {
+    max-width: 232px;
   }
   /* section 5 */
   .s5_cont {
